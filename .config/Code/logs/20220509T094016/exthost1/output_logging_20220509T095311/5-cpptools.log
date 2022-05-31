@@ -1,0 +1,33 @@
+[Error - 9:53:11 AM] Sending notification cpptools/activeDocumentChange failed.
+Error: Connection is disposed.
+	at throwIfClosedOrDisposed (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:3602:19)
+	at Object.sendNotification (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:3649:13)
+	at Object.sendNotification (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:5375:56)
+	at LanguageClient.sendNotification (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7067:38)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36328:33
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36070:21
+	at new Promise (<anonymous>)
+	at task (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36069:26)
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.notifyWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36072:21)
+	at DefaultClient.activeDocumentChanged (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36327:14)
+	at ClientCollection.replace (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34610:35)
+	at Object.closed (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35504:52)
+	at LanguageClient.handleConnectionClosed (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7495:55)
+	at LanguageClient.handleConnectionClosed (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:16506:15)
+	at closeHandler (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7474:18)
+	at CallbackList.invoke (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:11276:39)
+	at Emitter.fire (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:11334:36)
+	at closeHandler (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:3164:26)
+	at CallbackList.invoke (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:11276:39)
+	at Emitter.fire (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:11334:36)
+	at StreamMessageReader.fireClose (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:14047:27)
+	at Socket.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:14087:46)
+	at Socket.emit (events.js:205:15)
+	at Pipe.<anonymous> (net.js:586:12)

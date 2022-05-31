@@ -1,0 +1,386 @@
+Looking for git in: git
+Using git 1.8.3.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/ilc/ebourasseau/StageProcessor
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/SimHitStepsToCaloHitProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimHitStepsToCaloHitProcessor.cc
+> git cat-file -s 92bb19344dfbbb16163d6aa394a8941bce270888
+> git check-ignore -v -z --stdin
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s fcd6fd590e9ea15a8d1b5b7db85f299cb4c1a4c1
+> git check-ignore -v -z --stdin
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s fcd6fd590e9ea15a8d1b5b7db85f299cb4c1a4c1
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s fcd6fd590e9ea15a8d1b5b7db85f299cb4c1a4c1
+> git check-ignore -v -z --stdin
+> git show HEAD:src/SimStepStudiesProcessor.cc
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git show HEAD:lib/libStageProcessor.so.0.1.0
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/lib/libStageProcessor.so.0.1.0
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/lib/libStageProcessor.so.0.1.0
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/lib/libStageProcessor.so.0.1.0
+> git check-ignore -v -z --stdin
+> git show HEAD:build/CMakeFiles/StageProcessor.dir/src/SimStepStudiesProcessor.cc.o
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/build/CMakeFiles/StageProcessor.dir/src/SimStepStudiesProcessor.cc.o
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/build/CMakeFiles/StageProcessor.dir/src/SimStepStudiesProcessor.cc.o
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/build/CMakeFiles/StageProcessor.dir/src/SimStepStudiesProcessor.cc.o
+> git check-ignore -v -z --stdin
+> git show HEAD:build/lib/libStageProcessor.so.0.1.0
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/build/lib/libStageProcessor.so.0.1.0
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/build/lib/libStageProcessor.so.0.1.0
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/build/lib/libStageProcessor.so.0.1.0
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/build/lib/libStageProcessor.so.0.1.0
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/build/lib/libStageProcessor.so.0.1.0
+> git check-ignore -v -z --stdin
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s fcd6fd590e9ea15a8d1b5b7db85f299cb4c1a4c1
+> git show :src/convertSimMCContributionsToHitCollection.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/convertSimMCContributionsToHitCollection.cc
+> git cat-file -s d60556c22392256b5d416d42a230bb60269b0de7
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s fcd6fd590e9ea15a8d1b5b7db85f299cb4c1a4c1
+> git show :src/convertSimMCContributionsToHitCollection.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/convertSimMCContributionsToHitCollection.cc
+> git cat-file -s d60556c22392256b5d416d42a230bb60269b0de7
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s fcd6fd590e9ea15a8d1b5b7db85f299cb4c1a4c1
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s fcd6fd590e9ea15a8d1b5b7db85f299cb4c1a4c1
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s fcd6fd590e9ea15a8d1b5b7db85f299cb4c1a4c1
+> git show :src/convertSimMCContributionsToHitCollection.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/convertSimMCContributionsToHitCollection.cc
+> git cat-file -s d60556c22392256b5d416d42a230bb60269b0de7
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s fcd6fd590e9ea15a8d1b5b7db85f299cb4c1a4c1
+> git show HEAD:README.md
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/README.md
+> git check-ignore -v -z --stdin
+> git show HEAD:build/CMakeFiles/StageProcessor.dir/src/SimStepStudiesProcessor.cc.o
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/build/CMakeFiles/StageProcessor.dir/src/SimStepStudiesProcessor.cc.o
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/build/CMakeFiles/StageProcessor.dir/src/SimStepStudiesProcessor.cc.o
+> git ls-tree -l HEAD -- /home/ilc/ebourasseau/StageProcessor/build/CMakeFiles/StageProcessor.dir/src/SimStepStudiesProcessor.cc.o
+> git add -A -- .
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s c3aaa1dd095f60e454c0db226cfa4a9393eb45ae
+> git show :src/convertSimMCContributionsToHitCollection.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/convertSimMCContributionsToHitCollection.cc
+> git cat-file -s d60556c22392256b5d416d42a230bb60269b0de7
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s c3aaa1dd095f60e454c0db226cfa4a9393eb45ae
+> git show :src/convertSimMCContributionsToHitCollection.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/convertSimMCContributionsToHitCollection.cc
+> git cat-file -s d60556c22392256b5d416d42a230bb60269b0de7
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s c3aaa1dd095f60e454c0db226cfa4a9393eb45ae
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s c3aaa1dd095f60e454c0db226cfa4a9393eb45ae
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s c3aaa1dd095f60e454c0db226cfa4a9393eb45ae
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s c3aaa1dd095f60e454c0db226cfa4a9393eb45ae
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s c3aaa1dd095f60e454c0db226cfa4a9393eb45ae
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s c3aaa1dd095f60e454c0db226cfa4a9393eb45ae
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s c3aaa1dd095f60e454c0db226cfa4a9393eb45ae
+> git show :src/SimStepStudiesProcessor.cc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s c3aaa1dd095f60e454c0db226cfa4a9393eb45ae
+> git show :src/convertSimMCContributionsToHitCollection.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/convertSimMCContributionsToHitCollection.cc
+> git cat-file -s d60556c22392256b5d416d42a230bb60269b0de7
+> git show :src/convertSimMCContributionsToHitCollection.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/convertSimMCContributionsToHitCollection.cc
+> git cat-file -s d60556c22392256b5d416d42a230bb60269b0de7
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s c3aaa1dd095f60e454c0db226cfa4a9393eb45ae
+> git show :src/convertSimMCContributionsToHitCollection.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/convertSimMCContributionsToHitCollection.cc
+> git cat-file -s d60556c22392256b5d416d42a230bb60269b0de7
+> git show :src/SimHitStepsToCaloHitProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimHitStepsToCaloHitProcessor.cc
+> git cat-file -s 92bb19344dfbbb16163d6aa394a8941bce270888
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s c3aaa1dd095f60e454c0db226cfa4a9393eb45ae
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/SimStepStudiesProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimStepStudiesProcessor.cc
+> git cat-file -s c3aaa1dd095f60e454c0db226cfa4a9393eb45ae
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

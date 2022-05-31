@@ -1,0 +1,27 @@
+Looking for git in: git
+Using git 1.8.3.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/ilc/ebourasseau/StageProcessor
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :src/convertSimMCContributionsToHitCollection.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/convertSimMCContributionsToHitCollection.cc
+> git cat-file -s d60556c22392256b5d416d42a230bb60269b0de7
+> git show :src/SimHitStepsToCaloHitProcessor.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/SimHitStepsToCaloHitProcessor.cc
+> git cat-file -s 92bb19344dfbbb16163d6aa394a8941bce270888
+> git show :src/convertSimMCContributionsToHitCollection.cc
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/src/convertSimMCContributionsToHitCollection.cc
+> git cat-file -s d60556c22392256b5d416d42a230bb60269b0de7

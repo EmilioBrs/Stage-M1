@@ -1,0 +1,36 @@
+[2022-05-09 09:40:20.638] [sharedprocess] [info] main {"machineId":"b23bf83ad50e210fd46053687f79f6ce081c6428dd380140224b8c72b42f18de","windowId":2}
+[2022-05-09 09:41:00.657] [sharedprocess] [info] Starting to clean up unused language packs.
+[2022-05-09 09:55:46.318] [sharedprocess] [info] Installing extension: akamud.vscode-theme-onedark
+[2022-05-09 09:55:46.588] [sharedprocess] [info] Downloaded extension: akamud.vscode-theme-onedark /tmp/5f1d0773-bf28-4b5e-88ac-af08c9c7de76
+[2022-05-09 09:55:46.632] [sharedprocess] [info] Extracted extension to /home/ilc/ebourasseau/.vscode/extensions/.akamud.vscode-theme-onedark-2.2.3: akamud.vscode-theme-onedark
+[2022-05-09 09:55:46.633] [sharedprocess] [info] Renamed to /home/ilc/ebourasseau/.vscode/extensions/akamud.vscode-theme-onedark-2.2.3
+[2022-05-09 09:55:46.635] [sharedprocess] [info] Installation completed. akamud.vscode-theme-onedark
+[2022-05-09 09:55:46.640] [sharedprocess] [info] Extensions installed successfully: akamud.vscode-theme-onedark
+[2022-05-09 10:00:18.228] [sharedprocess] [info] Installing extension: ms-vscode.cpptools-themes
+[2022-05-09 10:00:18.532] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools-themes /tmp/f7ae5fad-460a-4623-a919-ea5b7c2a7674
+[2022-05-09 10:00:18.570] [sharedprocess] [info] Extracted extension to /home/ilc/ebourasseau/.vscode/extensions/.ms-vscode.cpptools-themes-1.0.0: ms-vscode.cpptools-themes
+[2022-05-09 10:00:18.571] [sharedprocess] [info] Renamed to /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-themes-1.0.0
+[2022-05-09 10:00:18.573] [sharedprocess] [info] Installation completed. ms-vscode.cpptools-themes
+[2022-05-09 10:00:18.576] [sharedprocess] [info] Extensions installed successfully: ms-vscode.cpptools-themes
+[2022-05-09 10:00:49.439] [sharedprocess] [info] Uninstalling extension: ms-vscode.cpptools-themes
+[2022-05-09 10:00:49.446] [sharedprocess] [info] Successfully uninstalled extension: ms-vscode.cpptools-themes
+[2022-05-09 10:08:49.881] [sharedprocess] [info] Uninstalling extension: akamud.vscode-theme-onedark
+[2022-05-09 10:08:49.888] [sharedprocess] [info] Successfully uninstalled extension: akamud.vscode-theme-onedark
+[2022-05-09 10:08:53.673] [sharedprocess] [info] Uninstalling extension: ms-vscode.cpptools
+[2022-05-09 10:08:53.682] [sharedprocess] [info] Successfully uninstalled extension: ms-vscode.cpptools
+[2022-05-09 10:08:57.424] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2022-05-09 10:08:57.847] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools /tmp/78883280-fe6a-413a-9447-26e1b60c7ff6
+[2022-05-09 10:08:57.876] [sharedprocess] [info] Removed the extension from uninstalled list: ms-vscode.cpptools
+[2022-05-09 10:08:57.880] [sharedprocess] [info] Extensions installed successfully: ms-vscode.cpptools
+[2022-05-09 10:09:15.496] [sharedprocess] [info] Installing extension: wesbos.theme-cobalt2
+[2022-05-09 10:09:15.797] [sharedprocess] [info] Downloaded extension: wesbos.theme-cobalt2 /tmp/7676e760-ae01-4941-a42b-ef62d19fa319
+[2022-05-09 10:09:15.902] [sharedprocess] [info] Extracted extension to /home/ilc/ebourasseau/.vscode/extensions/.wesbos.theme-cobalt2-2.2.5: wesbos.theme-cobalt2
+[2022-05-09 10:09:15.903] [sharedprocess] [info] Renamed to /home/ilc/ebourasseau/.vscode/extensions/wesbos.theme-cobalt2-2.2.5
+[2022-05-09 10:09:15.906] [sharedprocess] [info] Installation completed. wesbos.theme-cobalt2
+[2022-05-09 10:09:15.909] [sharedprocess] [info] Extensions installed successfully: wesbos.theme-cobalt2
+[2022-05-09 10:26:26.165] [sharedprocess] [info] Installing extension: coenraads.bracket-pair-colorizer-2
+[2022-05-09 10:26:26.500] [sharedprocess] [info] Downloaded extension: coenraads.bracket-pair-colorizer-2 /tmp/bce97160-ac50-4a5f-b5cb-437c8fc95414
+[2022-05-09 10:26:26.945] [sharedprocess] [info] Extracted extension to /home/ilc/ebourasseau/.vscode/extensions/.coenraads.bracket-pair-colorizer-2-0.0.29: coenraads.bracket-pair-colorizer-2
+[2022-05-09 10:26:26.946] [sharedprocess] [info] Renamed to /home/ilc/ebourasseau/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.0.29
+[2022-05-09 10:26:26.948] [sharedprocess] [info] Installation completed. coenraads.bracket-pair-colorizer-2
+[2022-05-09 10:26:26.951] [sharedprocess] [info] Extensions installed successfully: coenraads.bracket-pair-colorizer-2

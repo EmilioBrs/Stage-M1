@@ -1,0 +1,44 @@
+Looking for git in: git
+Using git 1.8.3.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/ilc/ebourasseau/StageProcessor
+> git status -z -u
+> git show :include/SimHitStepsToCaloHitProcessor.h
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/include/SimHitStepsToCaloHitProcessor.h
+> git cat-file -s b0d8a302287fee2b63a42ebd302f8c02fba637ec
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/include/SimHitStepsToCaloHitProcessor.h
+> git cat-file -s b0d8a302287fee2b63a42ebd302f8c02fba637ec
+> git show :include/SimHitStepsToCaloHitProcessor.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+error: No upstream configured for branch 'master'
+error: No upstream configured for branch 'master'
+fatal: ambiguous argument 'master@{u}': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :include/convertSimMCContributionsToHitCollection.h
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/include/convertSimMCContributionsToHitCollection.h
+> git cat-file -s 2d85e89753999961023c2211cbf9af8b241a14d6
+> git check-ignore -v -z --stdin
+> git show :include/SimStepStudiesProcessor.h
+> git ls-files --stage -- /home/ilc/ebourasseau/StageProcessor/include/SimStepStudiesProcessor.h
+> git cat-file -s cd4ac9c1dbda6daa3d2fdf19bdcfb27ced71cb1b
+> git check-ignore -v -z --stdin

@@ -1,0 +1,64 @@
+[100%] Built target StageProcessor
+[100%] Built target StageProcessor
+Install the project...
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /home/ilc/ebourasseau/StageProcessor/lib/libStageProcessor.so.0.1.0
+-- Up-to-date: /home/ilc/ebourasseau/StageProcessor/lib/libStageProcessor.so.0.1
+-- Up-to-date: /home/ilc/ebourasseau/StageProcessor/lib/libStageProcessor.so
+<!-- Loading shared library : /home/ilc/ebourasseau/StageProcessor/lib/libStageProcessor.so.0.1.0 (libStageProcessor.so)-->
+
+[ MESSAGE "Marlin"]  ---- no GEAR XML file given  --------- 
+[ WARNING "Marlin"]  *********** Parameter LCIOReadCollectionNames given - will only read the following collections: **** 
+[ WARNING "Marlin"]      MCParticle
+[ WARNING "Marlin"]      HCalBarrelRPCHits
+[ WARNING "Marlin"]      HCalECRingRPCHits
+[ WARNING "Marlin"]      HCalEndcapRPCHits
+[ WARNING "Marlin"]  *************************************************************************************************** 
+[ MESSAGE "MyStatusmonitor"] 
+[ MESSAGE "MyStatusmonitor"] ---- MyStatusmonitor -  parameters: 
+[ MESSAGE "MyStatusmonitor"] 	HowOften:  500
+[ MESSAGE "MyStatusmonitor"] -------------------------------------------------
+[ MESSAGE "MySimHitStepsToCaloHitProcessor"] 
+[ MESSAGE "MySimHitStepsToCaloHitProcessor"] ---- MySimHitStepsToCaloHitProcessor -  parameters: 
+[ MESSAGE "MySimHitStepsToCaloHitProcessor"] 	InputSimCaloHitCollections:  HCalBarrelRPCHits HCalECRingRPCHits HCalEndcapRPCHits 
+[ MESSAGE "MySimHitStepsToCaloHitProcessor"] 	OutputCollection:  G4StepAsHit
+[ MESSAGE "MySimHitStepsToCaloHitProcessor"] -------------------------------------------------
+[ MESSAGE "MySimStepStudiesProcessor"] 
+[ MESSAGE "MySimStepStudiesProcessor"] ---- MySimStepStudiesProcessor -  parameters: 
+[ MESSAGE "MySimStepStudiesProcessor"] 	InputG4StepAsCaloHitsCollections:  G4StepAsHit 
+[ MESSAGE "MySimStepStudiesProcessor"] 	ROOTfilename:  result_220.root
+[ MESSAGE "MySimStepStudiesProcessor"] -------------------------------------------------
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       1  Event:       0
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       1  Event:     500
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       2  Event:    1000
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       2  Event:    1500
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       3  Event:    2000
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       3  Event:    2500
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       4  Event:    3000
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       4  Event:    3500
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       5  Event:    4000
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       5  Event:    4500
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       6  Event:    5000
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       6  Event:    5500
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       7  Event:    6000
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       7  Event:    6500
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       8  Event:    7000
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       8  Event:    7500
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       9  Event:    8000
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :       9  Event:    8500
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :      10  Event:    9000
+[ MESSAGE "MyStatusmonitor"]  ===== Run  :      10  Event:    9500
+[ MESSAGE "MyStatusmonitor"] Statusmonitor::end()  MyStatusmonitor processed 10000 events in 10 runs 
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 
+[ MESSAGE "Marlin"]   Events skipped by processors : 
+[ MESSAGE "Marlin"]   Total: 0
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 
+[ MESSAGE "Marlin"]       Time used by processors ( in processEvent() ) :      
+[ MESSAGE "Marlin"] 
+[ MESSAGE "Marlin"] MySimStepStudiesProcessor            5.873300e+02 s in        10000 events  ==> 5.873300e-02 [ s/evt.] 
+[ MESSAGE "Marlin"] MySimHitStepsToCaloHitProcesso       5.340000e+00 s in        10000 events  ==> 5.340000e-04 [ s/evt.] 
+[ MESSAGE "Marlin"] MyStatusmonitor                      3.000000e-02 s in        10000 events  ==> 3.000000e-06 [ s/evt.] 
+[ MESSAGE "Marlin"]             Total:                   5.927000e+02 s in        10000 events  ==> 5.927000e-02 [ s/evt.] 
+[ MESSAGE "Marlin"]  --------------------------------------------------------- 

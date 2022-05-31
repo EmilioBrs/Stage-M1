@@ -1,0 +1,445 @@
+TFile *_file0 = TFile::Open("result_30.root")
+TBrowser b
+.Q
+TFile *_file0 = TFile::Open("result_30.root")
+TBrowser b
+tv__tree = (TTree *)0x4540c40;
+tv__tree_list->Add(tv__tree);
+tv__tree->Draw("multisetsize","","", 10000, 0);
+tv__tree->Draw("multisetsize","","", 10000, 0);
+tv__tree->Draw("mindist","","", 10000, 0);
+TFile *_file0 = TFile::Open("result_30.root")
+TBrowser b
+tv__tree = (TTree *)0x3e9f580;
+tv__tree_list->Add(tv__tree);
+tv__tree->Draw("Tous_les_temps:Toutes_les_distances","","", 10000, 0);
+tv__tree->Draw("Toutes_les_distances","","", 10000, 0);
+tv__tree->Draw("Toutes_les_distances","","", 10000, 0);
+tv__tree->Draw("Toutes_les_distances","","", 10000, 0);
+tv__tree->Draw("Npairs","","", 10000, 0);
+tv__tree->Draw("Tous_les_temps:Npairs","","", 10000, 0);
+tv__tree->Draw("Tous_les_temps:Npairs","","", 10000, 0);
+tv__tree->Draw("Tous_les_temps","","", 10000, 0);
+tv__tree->Draw("Tous_les_temps","","", 10000, 0);
+tv__tree->Scan("Tous_les_temps","","", 10000, 0);
+.q
+TFile *_file0 = TFile::Open("result_30.root")
+TBrowser b
+tv__tree = (TTree *)0x59dc330;
+tv__tree_list->Add(tv__tree);
+tv__tree->Scan("Tous_les_temps","","", 10000, 0);
+TFile *_file0 = TFile::Open("result_30.root")
+TBrowser b
+tv__tree = (TTree *)0x4394fe0;
+tv__tree_list->Add(tv__tree);
+..q
+.q
+.q
+TFile *_file0 = TFile::Open("result_30.root")
+TBrowser b
+tv__tree = (TTree *)0x488a550;
+tv__tree_list->Add(tv__tree);
+tv__tree->Scan("Toutes_les_distances","","", 10000, 0);
+TFile *_file0 = TFile::Open("result_30.root")
+TBrowser b
+tv__tree = (TTree *)0x5a76290;
+tv__tree_list->Add(tv__tree);
+tv__tree->Scan("Nhits","","", 10000, 0);
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+TBrowser b
+tv__tree = (TTree *)0x4c9da20;
+tv__tree_list->Add(tv__tree);
+tv__tree->Scan("Toutes_les_distances","","", 10001, 0);
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+TBrowser b
+.Q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+TBrowser b
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+TBrowser b
+tv__tree = (TTree *)0x4f91960;
+tv__tree_list->Add(tv__tree);
+tv__tree->Draw("Tous_les_temps:Toutes_les_distances","","", 10001, 0);
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+TBrowser b
+tv__tree = (TTree *)0x482cd80;
+tv__tree_list->Add(tv__tree);
+TBrowser b
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+TBrowser b
+c
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+TBrowser b
+distanceTree->MakeSelector("plot")
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+distanceTree->Process("plot.C")
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+distanceTree->Process("plot.C")
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+distanceTree->Process("plot.C")
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+distanceTree->Process("plot.C")
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+distanceTree->Process("plot.C")
+distanceTree->Scan("Toutes_les_distances")
+TBrowser b
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+distanceTree->Scan("Toutes_les_distances")
+TBrowser b
+distanceTree->Scan("Toutes_les_distances")
+distanceTree->Scan("Toutes_les_distances")
+distanceTree->Scan()
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+distanceTree->Scan("Tous_les_temps")
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_200.root")
+TBrowser b
+TBrowser b
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_40.root")
+TBrowser b
+q
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+TBrowser b
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+TBrowser b
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+TBrowser b
+tv__tree = (TTree *)0x488e630;
+tv__tree_list->Add(tv__tree);
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","", 10001, 0);
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","", 10001, 0);
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","", 10001, 0);
+tv__tree->Draw("Toutes_les_Distances:Tous_les_Temps","","", 10001, 0);
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","", 10001, 0);
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+TBrowser b
+tv__tree = (TTree *)0x3cecd60;
+tv__tree_list->Add(tv__tree);
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","", 10001, 0);
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","");
+tv__tree->Draw("Tous_les_Temps","","");
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","");
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","BOX");
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","");
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","");
+tv__tree->SetMarkerStyle(10)
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","");
+tv__tree->SetMarkerStyle(1)
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","");
+tv__tree->SetMarkerSize(1)
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","");
+tv__tree->SetMarkerSize(2)
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","");
+tv__tree->SetMarkerStyle(4)
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","");
+tv__tree->SetMarkerSize(0.3)
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","");
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","")
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","Toutes_les_Distances<10","")
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","Toutes_les_Distances<10&&Tous_les_Temps<0.1","")
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_600.root")
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","")
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+tv__tree->Print()
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+tv__tree->Draw("Tous_les_Temps:Toutes_les_Distances","","")
+.ls
+DistanceTree->Print()
+DistanceTree->Draw("Npairs")
+DistanceTree->Draw("Npairs")
+DistanceTree->Draw("Npairs>>(200,0,8000)")
+DistanceTree->Draw("Npairs>>(200,0,2000)")
+.q
+ROOT::RDataFrame dt("DistanceTree","StageProcessor/results/rootfiles/result_30.root", {"Npairs","Nhits"});
+auto h = df.Histo1D("Npairs");
+auto h = df.df.Filter("1").Histo1D("Npairs");
+auto h = dt.Histo1D("Npairs");
+h
+h->Draw()
+h->GetMean()
+h.GetMedian()
+h.GetRMS()
+h.GetRms()
+h->GetMedian()
+h->GetRMS()
+ROOT::RDataFrame df("DistanceTree","StageProcessor/results/rootfiles/result_600.root", {"Npairs","Nhits"});
+auto h600 = df.Histo1D("Npairs");
+.q
+ROOT::RDataFrame dt("DistanceTree","StageProcessor/results/rootfiles/result_30.root", {"Npairs","Nhits"});
+auto h = dt.Histo1D("Npairs");
+auto s = dt.Sum("Npairs");
+s
+*s
+222024.00/10001
+445/(*s)
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+ROOT::RDataFrame dt("DistanceTree","StageProcessor/results/rootfiles/result_30.root", {"Npairs","Nhits"});
+TBrowser b
+auto h = dt.Histo1D("Npairs");
+h->Draw()
+.q
+.x Plot.C
+.x Plot.C
+.x Plot.C
+clear
+.q
+.x Plot.C
+.!clear
+.x Plot.C
+ROOT::RDataFrame dt("DistanceTree","StageProcessor/results/rootfiles/result_30.root", {"Npairs","Nhits"});
+.x Plot.C
+.!clear
+.x Plot.C
+.!clear
+.x Plot.C
+!.clear
+.!clear
+.x Plot.C
+.x Plot.C
+.!clear
+.x Plot.C
+.!clear
+TBrowser b
+.!clear
+.x Plot.C
+.x Plot.C
+TBrowser b
+.x Plot.C
+TBrowser b
+.x Plot.C
+.x Plot.C
+.!clear
+.x Plot.C
+TBrowser b
+.q
+.x Plot.C
+TBrowser b
+.!clear
+.x Plot.C
+.!clear
+.x Plot.C
+.x Plot.C
+.x Plot.C
+.h
+.q
+TFile *_file0 = TFile::Open("result_600.root")
+.q
+TFile *_file0 = TFile::Open("result_600.root")
+TTree *DistanceTree = (TTree*)r600->Get("DistanceTree");
+DistanceTree->Napairs
+DistanceTree->Npairs
+DistanceTree->Print()
+TTree *DistanceTree = (TTree*)r600->Get("DistanceTree");
+.!
+clear
+.!clear
+TBrowser b
+tv__tree = (TTree *)0x437fe70;
+tv__tree_list->Add(tv__tree);
+DistanceTree->SetBranchAddress("Napirs")
+ROOT::RDataFrame dt("DistanceTree","StageProcessor/results/rootfiles/result_30.root", {"Npairs","Nhits"});
+auto h = dt.Histo1D("Npairs");
+.x Plot.C
+.!clear
+DistanceTree->Branch
+clear
+clear
+.!clear
+TFile *_file0 = TFile::Open("result_600.root")
+TBrowser b
+.!clear
+.x Plot.C
+.x Plot.C
+.!clear
+.x Plot.C
+.x Plot.C
+.x Plot.C
+.x Plot.C
+TBrowser b
+.x Plot.C
+TBrowser b
+.x Plot.C
+.x Plot.C
+.x Plot.C
+.x Plot.C
+.x Plot.C
+.x Plot.C
+.x Plot.C
+.x Plot.C
+.x Plot.C(30)
+.q
+TFile *_file0 = TFile::Open("StageProcessor/results/rootfiles/result_30.root")
+TBrowser b
+.x Plot.C(30)
+.c
+.q
+.x StageProcessor/results/rootfiles/Plot.C
+.x StageProcessor/results/rootfiles/Plot.C(30)
+.q
+.x Plot.C
+.x Plot.C(30)
+.q
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+TBrowser b
+.x Plot.C(30)
+.!clear
+.x Plot.C(30)
+.!clear
+.x Plot.C(30)
+.!clear
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+TBrowser b
+.x Plot.C(600)
+TBrowser b
+clear
+.!clear
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.q
+.x Plot.C(30)
+.x Plot.C(30)
+.!clear
+.x Plot.C(30)
+clear
+.!clear
+.x Plot.C(30)
+.q
+clear
+.!clear
+.x Plot.C 
+.x Plot.C (600)
+.x Plot.C (60)
+.x Plot.C (30)
+.q
+.x Plot.C(600)
+.!clear
+.x Plot.C(600)
+.!clear
+.x Plot.C(600)
+.!clear
+.x Plot.C(600)
+.!clear
+.x Plot.C(600)
+.x Plot.C(600)
+TBrowser b
+.x Plot.C(30)
+.x Plot.C(30)
+TBrowser b
+.x Plot.C(30)
+TBrowser b
+.!clear
+.q
+.!clear
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+TFile *_file0 = TFile::Open("result_600.root")
+TBrowser b
+.q
+.x Plot.c(40)
+.x Plot.C(40)
+.x Plot.C(600)
+.x Plot.C(30)
+.q
+.x Plot.C(30)
+.x Plot.C 
+.x Plot.C(30) 
+.x Plot.C(30) 
+.x Plot.C(30) 
+.x Plot.C(30) 
+.x Plot.C(30) 
+.q
+TBrowser b
+clear
+.!clear
+.x Plot.C(30) 
+.x Plot.C(30) 
+.x Plot.C(30) 
+.x Plot.C(30) 
+.x Plot.C(30) 
+.!clear
+.x Plot.C(30)
+.x Plot.C(30)
+error: no member named 'SetOpStat' in 'TStyle'
+.x Plot.C(30)
+clear
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.q
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.q
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.!clear
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.!clear
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.x Plot.C(30)
+.!clear
+1+1
+1.5+1.2
+.!clear

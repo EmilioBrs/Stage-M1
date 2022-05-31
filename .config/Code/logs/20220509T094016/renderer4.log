@@ -1,0 +1,930 @@
+[2022-05-09 09:44:20.997] [renderer4] [info] Setting search error: {"url":"https://bingsettingssearch.trafficmanager.net/api/Search","body":"{\"query\":\"(bar)%5E10%20%7C%7C%20bar~\",\"filters\":\"(packageid%20eq%20'690b692e-e8a9-493f-b802-8089d50ac1b2'%20and%20startbuildno%20le%20'000000000000000000270000000001'%20and%20endbuildno%20ge%20'000000000000000000270000000001')%20or%20(packageid%20eq%20'core'%20and%20startbuildno%20le%20'1420000614570'%20and%20endbuildno%20ge%20'1420000614570')\",\"rawQuery\":\"bar\"}","hasMoreFilters":false} returned status code: 400
+[2022-05-09 09:44:21.022] [renderer4] [info] Setting search error: {"url":"https://bingsettingssearch.trafficmanager.net/api/Search","body":"{\"query\":\"(bar)%5E10%20%7C%7C%20bar~\",\"filters\":\"diminish%20eq%20'latest'\",\"rawQuery\":\"bar\"}","hasMoreFilters":false} returned status code: 400
+[2022-05-09 09:44:24.063] [renderer4] [info] Setting search error: {"url":"https://bingsettingssearch.trafficmanager.net/api/Search","body":"{\"query\":\"(b)%5E10%20%7C%7C%20b~\",\"filters\":\"(packageid%20eq%20'690b692e-e8a9-493f-b802-8089d50ac1b2'%20and%20startbuildno%20le%20'000000000000000000270000000001'%20and%20endbuildno%20ge%20'000000000000000000270000000001')%20or%20(packageid%20eq%20'core'%20and%20startbuildno%20le%20'1420000614570'%20and%20endbuildno%20ge%20'1420000614570')\",\"rawQuery\":\"b\"}","hasMoreFilters":false} returned status code: 400
+[2022-05-09 09:44:24.113] [renderer4] [info] Setting search error: {"url":"https://bingsettingssearch.trafficmanager.net/api/Search","body":"{\"query\":\"(b)%5E10%20%7C%7C%20b~\",\"filters\":\"diminish%20eq%20'latest'\",\"rawQuery\":\"b\"}","hasMoreFilters":false} returned status code: 400
+[2022-05-09 09:44:25.267] [renderer4] [info] Setting search error: {"url":"https://bingsettingssearch.trafficmanager.net/api/Search","body":"{\"query\":\"(brac)%5E10%20%7C%7C%20brac~\",\"filters\":\"diminish%20eq%20'latest'\",\"rawQuery\":\"brac\"}","hasMoreFilters":false} returned status code: 400
+[2022-05-09 09:44:25.288] [renderer4] [info] Setting search error: {"url":"https://bingsettingssearch.trafficmanager.net/api/Search","body":"{\"query\":\"(brac)%5E10%20%7C%7C%20brac~\",\"filters\":\"(packageid%20eq%20'690b692e-e8a9-493f-b802-8089d50ac1b2'%20and%20startbuildno%20le%20'000000000000000000270000000001'%20and%20endbuildno%20ge%20'000000000000000000270000000001')%20or%20(packageid%20eq%20'core'%20and%20startbuildno%20le%20'1420000614570'%20and%20endbuildno%20ge%20'1420000614570')\",\"rawQuery\":\"brac\"}","hasMoreFilters":false} returned status code: 400
+[2022-05-09 09:44:27.110] [renderer4] [info] Setting search error: {"url":"https://bingsettingssearch.trafficmanager.net/api/Search","body":"{\"query\":\"(brack)%5E10%20%7C%7C%20brack~\",\"filters\":\"diminish%20eq%20'latest'\",\"rawQuery\":\"brack\"}","hasMoreFilters":false} returned status code: 400
+[2022-05-09 09:44:27.149] [renderer4] [info] Setting search error: {"url":"https://bingsettingssearch.trafficmanager.net/api/Search","body":"{\"query\":\"(brack)%5E10%20%7C%7C%20brack~\",\"filters\":\"(packageid%20eq%20'690b692e-e8a9-493f-b802-8089d50ac1b2'%20and%20startbuildno%20le%20'000000000000000000270000000001'%20and%20endbuildno%20ge%20'000000000000000000270000000001')%20or%20(packageid%20eq%20'core'%20and%20startbuildno%20le%20'1420000614570'%20and%20endbuildno%20ge%20'1420000614570')\",\"rawQuery\":\"brack\"}","hasMoreFilters":false} returned status code: 400
+[2022-05-09 09:44:30.351] [renderer4] [info] Setting search error: {"url":"https://bingsettingssearch.trafficmanager.net/api/Search","body":"{\"query\":\"(bracket)%5E10%20%7C%7C%20bracket~\",\"filters\":\"(packageid%20eq%20'690b692e-e8a9-493f-b802-8089d50ac1b2'%20and%20startbuildno%20le%20'000000000000000000270000000001'%20and%20endbuildno%20ge%20'000000000000000000270000000001')%20or%20(packageid%20eq%20'core'%20and%20startbuildno%20le%20'1420000614570'%20and%20endbuildno%20ge%20'1420000614570')\",\"rawQuery\":\"bracket\"}","hasMoreFilters":false} returned status code: 400
+[2022-05-09 09:44:30.370] [renderer4] [info] Setting search error: {"url":"https://bingsettingssearch.trafficmanager.net/api/Search","body":"{\"query\":\"(bracket)%5E10%20%7C%7C%20bracket~\",\"filters\":\"diminish%20eq%20'latest'\",\"rawQuery\":\"bracket\"}","hasMoreFilters":false} returned status code: 400
+[2022-05-09 09:53:20.686] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35008:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at CodeActionProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34991:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at CodeActionProvider.provideCodeActions (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34990:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:591
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at D.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:562)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:391
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:369)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 09:56:29.808] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35053:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at DocumentSymbolProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35049:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at DocumentSymbolProvider.provideDocumentSymbols (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35048:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:106
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at _.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:77)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:888
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:866)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:13:54.110] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35053:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at DocumentSymbolProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35049:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at DocumentSymbolProvider.provideDocumentSymbols (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35048:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:106
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at _.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:77)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:888
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:866)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:13:54.110] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35008:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at CodeActionProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34991:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at CodeActionProvider.provideCodeActions (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34990:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:591
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at D.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:562)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:391
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:369)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:21:27.805] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35053:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at DocumentSymbolProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35049:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at DocumentSymbolProvider.provideDocumentSymbols (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35048:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:106
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at _.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:77)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:888
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:866)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:21:27.805] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35008:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at CodeActionProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34991:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at CodeActionProvider.provideCodeActions (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34990:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:591
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at D.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:562)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:391
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:369)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:21:34.631] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35053:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at DocumentSymbolProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35049:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at DocumentSymbolProvider.provideDocumentSymbols (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35048:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:106
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at _.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:77)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:888
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:866)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:21:34.631] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35008:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at CodeActionProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34991:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at CodeActionProvider.provideCodeActions (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34990:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:591
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at D.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:562)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:391
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:369)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:21:39.950] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35053:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at DocumentSymbolProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35049:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at DocumentSymbolProvider.provideDocumentSymbols (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35048:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:106
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at _.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:77)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:888
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:866)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:21:39.950] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35008:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at CodeActionProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34991:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at CodeActionProvider.provideCodeActions (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34990:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:591
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at D.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:562)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:391
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:369)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:21:42.302] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35053:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at DocumentSymbolProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35049:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at DocumentSymbolProvider.provideDocumentSymbols (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35048:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:106
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at _.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:77)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:888
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:866)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:21:42.302] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35008:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at CodeActionProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34991:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at CodeActionProvider.provideCodeActions (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34990:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:591
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at D.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:562)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:391
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:369)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:21:43.326] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35053:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at DocumentSymbolProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35049:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at DocumentSymbolProvider.provideDocumentSymbols (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35048:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:106
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at _.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:77)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:888
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:866)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:21:43.326] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35008:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at CodeActionProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34991:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at CodeActionProvider.provideCodeActions (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34990:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:591
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at D.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:562)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:391
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:369)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:33:46.823] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35053:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at DocumentSymbolProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35049:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at DocumentSymbolProvider.provideDocumentSymbols (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35048:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:106
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at _.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:77)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:888
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:866)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:33:46.823] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35008:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at CodeActionProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34991:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at CodeActionProvider.provideCodeActions (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34990:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:591
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at D.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:562)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:391
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:369)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:33:50.649] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35053:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at DocumentSymbolProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35049:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at DocumentSymbolProvider.provideDocumentSymbols (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35048:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:106
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at _.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:77)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:888
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:866)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:33:50.649] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35008:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at CodeActionProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34991:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at CodeActionProvider.provideCodeActions (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34990:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:591
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at D.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:562)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:391
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:369)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:33:54.865] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35053:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at DocumentSymbolProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35049:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at DocumentSymbolProvider.provideDocumentSymbols (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35048:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:106
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at _.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:576:77)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:888
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:866)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2022-05-09 10:33:54.865] [renderer4] [error] Language client is not ready yet: Error: Language client is not ready yet
+	at LanguageClient.sendRequest (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:7038:19)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:35008:67
+	at DefaultClient.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36018:34)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at nextTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36016:34)
+	at DefaultClient.queueTask (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36030:24)
+	at DefaultClient.requestWhenReady (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:36066:21)
+	at CodeActionProvider.<anonymous> (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34991:48)
+	at Generator.next (<anonymous>)
+	at /home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34704:71
+	at new Promise (<anonymous>)
+	at module.exports.__awaiter (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34700:12)
+	at CodeActionProvider.provideCodeActions (/home/ilc/ebourasseau/.vscode/extensions/ms-vscode.cpptools-0.27.1/dist/main.js:34990:32)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:591
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:36
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:54:8)
+	at D.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:580:562)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:391
+	at j._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:598:126)
+	at j.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:602:369)
+	at p._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:676:202)
+	at p._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:675:901)
+	at p._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:674:494)
+	at p._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:673:373)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:671:588
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:838:649
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at _.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:190:934)
+	at t.PersistentProtocol._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:195:277)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:192:459
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at p.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:188:445)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:796
+	at Socket.t (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:196:732)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
